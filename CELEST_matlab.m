@@ -374,6 +374,35 @@ save('myFile.mat', 'output');
 clear all; clc; close all;
 
 load('myFile.mat')
+
+
+%% Loading Audio Files
+
+% Use wavread to load in the waveform "fox" and the sampling frequency "fs"
+[fox, fs] = wavread('quickBrownFox.wav');
+
+% Play the sound
+sound(fox, fs);
+
+% Plot the sound
+figure;
+plot(fox);
+
+% Alter the playback speed of the sound by changing its sampling frequency
+sound(fox, 50000);
+
+%% Loading Image Files
+
+% Load in an animated GIF using imread
+mj = imread('gotMJ.gif');
+
+% Show only one frame
+imshow(mj(:, :, :, 1));
+
+% Play the animated GIF as a movie
+implay(mj);
+
+
 %% Other Useful Built-in Matlab Functions and Miscellany
 help max
 help min
