@@ -5,9 +5,9 @@ This is a basic tutorial that covers several key fundamentals of using Matlab su
 variable assignment, mathematical and logical operations, selective indexing, control loops,
 graphics, functions, and file operations.
 
-To get started, download the following files:
-- CELEST_matlab.m
-- myFile.mat
-- myFirstFunction.m
+To get started, download the files by clicking "Download ZIP".
 
-Then open CELEST_matlab.m and follow the directions in the comments.
+Then:
+- Unzip the files
+- open CELEST_matlab.m
+- follow the directions in the comments.
