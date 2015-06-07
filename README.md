@@ -11,3 +11,5 @@ Then:
 - Unzip the files
 - Open CELEST_matlab.m
 - Follow the directions in the comments.
+
+The output for CELEST_matlab.m is available in [html/CELEST_matlab.html](html/CELEST_matlab.html)
