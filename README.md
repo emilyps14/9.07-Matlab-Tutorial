@@ -9,5 +9,5 @@ To get started, download the files by clicking "Download ZIP".
 
 Then:
 - Unzip the files
-- open CELEST_matlab.m
-- follow the directions in the comments.
+- Open CELEST_matlab.m
+- Follow the directions in the comments.
