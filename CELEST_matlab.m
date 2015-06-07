@@ -19,7 +19,10 @@
 % This makes your code more readable and understandable.  For example, what
 % is more readable? 
 
-% firingRate * 10 or
+% firingRate * 10 
+
+% OR 
+
 % 5 * 10.  
 
 % Here is how you assign a
@@ -55,7 +58,7 @@ c = [3 4];
 d = [1 2; 3 4]
 
 d = [1 2; ...
-    3 4]
+     3 4]
 
 size(d)
 
@@ -132,14 +135,14 @@ matrix * matrix
 % rate from neuron2:
 
 % First let's give the neurons' firing rates
-neuron1_firing_rate = 4
-neuron2_firing_rate = 3
+neuronFiringRate1 = 4
+neuronFiringRate2 = 3
 
 % Now you can test whether the two variables are equal:
-neuron1_firing_rate == neuron2_firing_rate
+neuronFiringRate1 == neuronFiringRate2
 
 % or if neuron1 has a greater firing rate than neuron2?
-neuron1_firing_rate > neuron2_firing_rate
+neuronFiringRate1 > neuronFiringRate2
 
 % These operations also work on vectors and matrices element-wise, so you
 % can determine whether a number is greater than each element in a matrix:
