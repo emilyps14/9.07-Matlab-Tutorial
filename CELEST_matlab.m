@@ -1,6 +1,4 @@
-%% CELEST Matlab Tutorial - 6/8/2011
-%  Eric Denovellis
-%  edeno@bu.edu
+%% CELEST Matlab Tutorial
 
 %% Comments, Variables, Vectors and Matrices
 
