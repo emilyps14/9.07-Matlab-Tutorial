@@ -319,6 +319,7 @@ plot(x, cos(x), 'r');
 % There are several other ways to plot data in Matlab.  Here are a few that
 % come up frequently:
 
+% help area
 % help bar
 % help hist
 % help stairs
